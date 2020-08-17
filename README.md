@@ -8,6 +8,6 @@ pip install -r requirements.txt
 ```
 
 ## Usage: Refer to respective documentation(Readme.md)
-1. [bio-medical-clinical-ner](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/bio-med-ner-stanza)
-2. [med7NER](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/med7-spacy)
-3. [sciSpacy](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/sciSpacy)
+1. [stanza](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/stanza) -State Of The Art (Tokenizer, Tagger, Parser, NER)
+2. [med7NER](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/med7-spacy) -Tagger, Parser, 7 Clinical NER(Dosage, drug, duration, form, frequeny, route, strength)
+3. [sciSpacy](https://github.com/MageshDominator/bio-medical-clinical-ner/tree/master/sciSpacy) -NER, Abbrevation detector and Entity linker
