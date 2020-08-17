@@ -4,7 +4,7 @@
 * Components: tagger, parser, clinical NER(Dosage, drug, duration, form, frequeny, route, strength)
 
 ### Details on NER
-![Image description](https://github.com/MageshDominator/bio-medical-ner-spacy-stanza/blob/master/med7-spacy/images/med7ner.png)
+![Image description](https://github.com/MageshDominator/bio-medical-clinical-ner-spacy-stanza/blob/master/med7-spacy/images/med7ner.png)
 
 ### Available Models
 | --width  | --depth | --embed-rows    |model size (MB) | epochs | URL      |
@@ -18,7 +18,7 @@
 The models were pre-trained on the entire MIMIC-III data, comprising a collection of 2,083,054 documents with the total of 3,129,334,419 words. Models' losses (logarithmically scaled) are presented below:
 
 
-<img src="https://github.com/MageshDominator/bio-medical-ner-spacy-stanza/blob/master/med7-spacy/images/loss.png" width="350">
+<img src="https://github.com/MageshDominator/bio-medical-clinical-ner-spacy-stanza/blob/master/med7-spacy/images/loss.png" width="350">
 
 The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) across all seven categories.
 
@@ -55,7 +55,7 @@ spacy.displacy.render(doc, style='ent', jupyter=True, options=options)
 ```
 The Med7 model identifies correctly all seven entities in the following example and highlights them in different colours for better visualisation:
 
-![](https://github.com/MageshDominator/bio-medical-ner-spacy-stanza/blob/master/med7-spacy/images/displacy.png)
+![](https://github.com/MageshDominator/bio-medical-clinical-ner-spacy-stanza/blob/master/med7-spacy/images/displacy.png)
 
 
 and the resulting output:
@@ -70,7 +70,7 @@ and the resulting output:
  ('for the next 5 days', 'DURATION')]
 ```
 
-## [med7Ner.py](https://github.com/MageshDominator/bio-medical-ner-spacy-stanza/blob/master/med7-spacy/med7Ner.py)
+## [med7Ner.py](https://github.com/MageshDominator/bio-medical-clinical-ner-spacy-stanza/blob/master/med7-spacy/med7Ner.py)
 * It has s template file to run NER using med7 model in spacy
 * It has entity linking template to link entities with drug
 * Has code to render entity annotation with displacy
