@@ -1,4 +1,4 @@
-## Med7 NER: [paper](https://arxiv.org/abs/2003.01271) [github](https://github.com/kormilitzin/med7/)
+## Med7 NER: [Paper](https://arxiv.org/abs/2003.01271) | [github](https://github.com/kormilitzin/med7/)
 
 * Training Data: MIMIC-III free-text electronic health records
 * Components: tagger, parser, clinical NER(Dosage, drug, duration, form, frequeny, route, strength)
