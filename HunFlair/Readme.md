@@ -74,9 +74,11 @@ You can find detailed evaluations and discussions in [paper](https://arxiv.org/a
 * [Hunflair Experiments repo](https://github.com/hu-ner/hunflair-experiments)
 
 ## Citation
+~~~
 @article{weber2020hunflair,
     title={HunFlair: An Easy-to-Use Tool for State-of-the-Art Biomedical Named Entity Recognition},
     author={Weber, Leon and S{\"a}nger, Mario and M{\"u}nchmeyer, Jannes  and Habibi, Maryam and Leser, Ulf and Akbik, Alan},
     journal={arXiv preprint arXiv:2008.07347},
     year={2020}
 }
+~~~
