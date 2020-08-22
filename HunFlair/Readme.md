@@ -2,7 +2,7 @@
 
 This repo contains templates and documentation on using HunFlair for bio-medical and clinical ner
 
-*HunFlair* is a state-of-the-art NER tagger for biomedical texts. This was trained over 24 biomedical NER data sets and can recognize 5 different entity types, i.e. cell lines, chemicals, disease, gene / proteins and species.
+**HunFlair** is a state-of-the-art NER tagger for biomedical texts. This was trained over 24 biomedical NER data sets and can recognize 5 different entity types, i.e. cell lines, chemicals, disease, gene / proteins and species.
 
 ## Installation:
 ```
